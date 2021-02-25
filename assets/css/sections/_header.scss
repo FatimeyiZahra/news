@@ -45,7 +45,7 @@
                         letter-spacing: 0.06em;
                         text-transform: uppercase;
                     }
-                    &:hover {
+                   &.active, &:hover {
                         .nav-link {
                             color: $blueColor;
                         }

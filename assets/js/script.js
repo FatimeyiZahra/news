@@ -20,4 +20,13 @@ $(document).ready(function () {
         $(".side-menu").removeClass("open")
     })
     //--------------------------------------------------------------------------------------
+
+
+});
+let navItem = document.querySelectorAll(".navbar-nav .nav-item");
+navItem.forEach((elem) => {
+    elem.addEventListener("click", function () {
+        navItem.forEach(elm=>elm.classList.remove("active"));
+        this.classList.add("active");
+    });
 });

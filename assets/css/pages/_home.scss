@@ -21,8 +21,8 @@
                 font-family: Roboto-Regular;
                 font-size: 14px;
                 line-height: 1.2;
-                color: #fff;
-                border-color: #fff;
+                color: $whiteColor;
+                border-color: $whiteColor;
                 transition: all 0.3s;
                 padding: 4px 10px;
                 border: 1px solid;
@@ -41,7 +41,7 @@
                     font-family: Roboto-Medium;
                     font-size: 30px;
                     line-height: 1.2;
-                    color: #fff;
+                    color: $whiteColor;
                     transition: all 0.3s;
                     max-width: 100%;
                     max-height: 72px;
@@ -84,8 +84,8 @@
                 font-family: Roboto-Regular;
                 font-size: 14px;
                 line-height: 1.2;
-                color: #fff;
-                border-color: #fff;
+                color: $whiteColor;
+                border-color: $whiteColor;
                 transition: all 0.3s;
                 padding: 4px 10px;
                 border: 1px solid;
@@ -106,7 +106,7 @@
                     font-size: 16px;
                     line-height: 1.5;
                     max-height: 45px;
-                    color: #fff;
+                    color: $whiteColor;
                     transition: all 0.3s;
                     &:hover {
                         color: $blueHover;
@@ -126,6 +126,173 @@
                     font-family: Roboto-Bold !important;
                     font-size: 13px;
                     line-height: 1.7;
+                }
+            }
+        }
+    }
+}
+#new-news {
+    padding-top: 104px;
+    .news-by-category {
+        .news {
+            .news-head {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 50px;
+                border: 1px solid #e6e6e6;
+                padding: 0 18px;
+                position: relative;
+                border-radius: 4px 30px 30px 4px;
+                &::before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 5px;
+                    height: calc(100% + 2px);
+                    top: -1px;
+                    left: -1px;
+                    border-radius: 4px;
+                    // background-color: $redColor;
+                }
+                .news-category {
+                    font-family: $primary_font_family;
+                    font-size: 18px;
+                    line-height: 1.333333;
+                    // color: $redColor;
+                    padding-right: 25px;
+                }
+                .view-all {
+                    padding-left: 10px;
+                    white-space: nowrap;
+                    text-transform: uppercase;
+                    color: $grayColor;
+                    &:hover {
+                        color: $blueHover;
+                    }
+                }
+            }
+            .news-content {
+                padding-top: 35px;
+                .news-right {
+                    margin-bottom: 30px;
+                    .news-right-pic {
+                        display: block;
+                        overflow: hidden;
+                        object-fit: cover;
+                        border-radius: 6px;
+                        position: relative;
+                        span {
+                            position: absolute;
+                            background: #007bff;
+                            top: 10px;
+                            left: 10px;
+                            padding: 4px 10px;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            font-weight: 600;
+                            border-radius: 4px;
+                            z-index: 9;
+                            color: $whiteColor;
+                            &:hover {
+                                background-color: transparent;
+                                border: 1px solid;
+                                border-color: $whiteColor;
+                                color: $whiteColor;
+                            }
+                        }
+                        img {
+                            width: 100%;
+                            overflow: hidden;
+                            object-fit: cover;
+                            border-radius: 6px;
+                            transition: all 0.5s;
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                    .news-right-title {
+                        span {
+                            font-family: Roboto-Regular;
+                            font-size: 13px;
+                            line-height: 1.7;
+                            color: $grayColor;
+                        }
+                        .name {
+                            font-family: Roboto-Bold !important;
+                            font-size: 13px;
+                            line-height: 1.7;
+                            color: $grayColor;
+                        }
+                        h5 {
+                            padding-top: 5px;
+                            .news-title-a {
+                                font-family: Roboto-Regular;
+                                font-size: 20px;
+                                line-height: 1.25;
+                                font-weight: 600;
+                                color: $darkGray;
+                                transition: all 0.3s;
+                                &:hover {
+                                    color: $blueHover;
+                                }
+                            }
+                        }
+                    }
+                }
+                .news-left {
+                    margin-bottom: 30px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    position: relative;
+                    margin-bottom: 30px;
+                    .news-left-pic {
+                        display: block;
+                        overflow: hidden;
+                        border-radius: 6px;
+                        width: 100px;
+                        img {
+                            width: 100%;
+                            overflow: hidden;
+                            object-fit: cover;
+                            border-radius: 6px; 
+                            transition: all 0.5s;
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                    .news-left-title {
+                        width: calc(100% - 118px);
+                        span {
+                            font-family: Roboto-Regular;
+                            font-size: 13px;
+                            line-height: 1.7;
+                            color: $grayColor;
+                        }
+                        .name {
+                            font-family: Roboto-Bold !important;
+                            font-size: 13px;
+                            line-height: 1.7;
+                            color: $grayColor;
+                        }
+                        h5 {
+                            // padding-top: 5px;
+                            .news-title-a {
+                                font-family: Roboto-Medium;
+                                font-size: 15px;
+                                line-height: 1.333333;
+                                color: $darkGray;
+                                transition: all 0.3s;
+                                &:hover {
+                                    color: $blueHover;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

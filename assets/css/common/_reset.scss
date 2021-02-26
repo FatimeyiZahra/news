@@ -27,6 +27,30 @@ ul {
         list-style: none;
     }
 }
+.sport-color{
+    color: #e71d69;
+}
+.sport-before{
+    &::before{
+        background-color: #e71d69;
+    }
+}
+.technology-color{
+    color: #0A5A9C;
+}
+.technology-before{
+    &::before{
+        background-color: #0A5A9C;
+    }
+}
+.economy-color{
+    color: green;
+}
+.economy-before{
+    &::before{
+        background-color: green;
+    }
+}
 h1,
 h2,
 h3,
@@ -88,6 +112,20 @@ a:hover {
 .p-b-2 {
     padding-bottom: 2px;
 }
+.p-r-15{
+    padding-right: 15px;
+}
+ .p-rl-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.p-all-15 {
+    padding: 15px;
+}
+.p-t-15{
+    padding-top: 15px;
+}
+
 .m-all-5,
 .m-t-5,
 .m-tb-5 {
@@ -97,6 +135,9 @@ a:hover {
 .m-t-14,
 .m-tb-14 {
     margin-top: 14px !important;
+}
+.m-r-10{
+    margin-right: 10px;
 }
 .m-all-10,
 .m-b-10,

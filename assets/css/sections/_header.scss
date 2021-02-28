@@ -45,7 +45,8 @@
                         letter-spacing: 0.06em;
                         text-transform: uppercase;
                     }
-                   &.active, &:hover {
+                    &.active,
+                    &:hover {
                         .nav-link {
                             color: $blueColor;
                         }
@@ -159,38 +160,36 @@
             color: #f44336;
         }
         .contact-info {
-            ul{
+            ul {
                 margin-top: 16px;
-               li {
-                display: flex;
-                flex-direction: row;
-                padding-bottom: 30px;
-                &:last-child {
-                    padding: 0;
-                }
-                .info {
-                    margin-top: 5px;
-                    span {
-                        display: block;
-                        font-family: "Nunito", sans-serif;
-                        font-weight: 900;
-                        line-height: 20px;
-                        text-transform: uppercase;
-                        font-size: 14px;
-                        width: 100%;
-                        margin-bottom: 5px;
-                        color: #232323;
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    padding-bottom: 30px;
+                    &:last-child {
+                        padding: 0;
+                    }
+                    .info {
+                        margin-top: 5px;
+                        span {
+                            display: block;
+                            font-family: "Nunito", sans-serif;
+                            font-weight: 900;
+                            line-height: 20px;
+                            text-transform: uppercase;
+                            font-size: 14px;
+                            width: 100%;
+                            margin-bottom: 5px;
+                            color: #232323;
+                        }
+                    }
+                    .icon {
+                        font-size: 40px;
+                        color: $blueColor;
+                        padding-right: 15px;
                     }
                 }
-                .icon {
-                    font-size: 40px;
-                    color: $blueColor;
-                    padding-right: 15px;
-                }
-            }  
             }
-            
-           
         }
         .widget {
             ul {
@@ -206,7 +205,8 @@
                 }
             }
         }
-        .widget-social { //social media icons
+        .widget-social {
+            //social media icons
             ul {
                 display: flex;
                 margin-top: 16px;
@@ -262,4 +262,4 @@
     height: 100%;
     z-index: 9999;
     background: url(../img/preloader.gif) center no-repeat #ffffff;
-  }
+}

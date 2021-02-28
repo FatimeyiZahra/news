@@ -980,4 +980,78 @@ a:hover {
   color: #232323;
   padding-right: 25px;
 }
+
+#new-news .relative-news-banner .follow-us ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+}
+
+#new-news .relative-news-banner .follow-us ul li {
+  margin-left: 9px;
+}
+
+#new-news .relative-news-banner .follow-us ul li a {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 600;
+  height: 40px;
+  line-height: 42px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0;
+  text-align: center;
+  width: 40px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+#new-news .relative-news-banner .follow-us ul li.facebook a {
+  background: #3b5998;
+}
+
+#new-news .relative-news-banner .follow-us ul li.twitter a {
+  background-color: #1da1f2;
+}
+
+#new-news .relative-news-banner .follow-us ul li.pinterest a {
+  background-color: #bd081c;
+}
+
+#new-news .relative-news-banner .follow-us ul li.dribbble a {
+  background-color: #ea4c89;
+}
+
+#new-news .relative-news-banner .follow-us ul li.youtube a {
+  background-color: #ff0000;
+}
+
+#new-news .relative-news-banner .follow-us ul li.instagram a {
+  font-size: 29px;
+  line-height: 38px;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+#new-news .relative-news-banner .banner2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 0;
+  padding-top: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#new-news .relative-news-banner .banner2 img {
+  max-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

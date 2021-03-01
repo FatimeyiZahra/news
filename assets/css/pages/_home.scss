@@ -1,5 +1,17 @@
+.banner1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 0;
+    padding-top: 95px;
+    box-sizing: border-box;
+    img {
+        max-width: 100%;
+    }
+}
 #top-news {
-    padding-top: 104px;
+    padding-top: 20px;
     // height: 100vh;
     .bg-img1 {
         background-position: center center;
@@ -133,6 +145,7 @@
 }
 #new-news {
     padding-top: 104px;
+    padding-bottom: 50px;
     .news-by-category {
         .news {
             .news-head {

@@ -30,3 +30,11 @@ navItem.forEach((elem) => {
         this.classList.add("active");
     });
 });
+
+let pageItem = document.querySelectorAll(".pagination .page-item");
+pageItem.forEach((elem) => {
+    elem.addEventListener("click", function () {
+        pageItem.forEach(elm=>elm.classList.remove("page-active"));
+        this.classList.add("page-active");
+    });
+});

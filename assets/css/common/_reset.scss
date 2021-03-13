@@ -35,6 +35,14 @@ ul {
         background-color: #e71d69;
     }
 }
+.last-before{
+    &::before {
+        background-color: #000080;
+    }
+}
+.last-color{
+    color: #000080;
+}
 .technology-color {
     color: #0a5a9c;
 }
@@ -127,6 +135,9 @@ a:hover {
 }
 .p-t-15 {
     padding-top: 15px;
+}
+.p-t-35 {
+    padding-top: 35px;
 }
 
 .m-all-5,

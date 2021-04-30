@@ -558,7 +558,7 @@
                 object-fit: cover;
                 border-radius: 6px;
                 position: relative;
-                span {
+                .category {
                     position: absolute;
                     background: #007bff;
                     top: 10px;
@@ -596,7 +596,8 @@
                     color: $grayColor;
                 }
                 .name {
-                    font-family: Roboto-Bold !important;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
                     font-size: 13px;
                     line-height: 1.7;
                     color: $grayColor;

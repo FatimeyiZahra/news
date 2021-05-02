@@ -1,5 +1,6 @@
 #news-details {
     padding-top: 104px;
+    padding-bottom: 37px;
     .details {
         border-bottom: 1px solid rgba(0, 0, 0, 0.08);
         .title {
@@ -16,7 +17,8 @@
             flex-wrap: wrap;
             display: flex;
             span {
-                font-family: Roboto-Regular;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
                 font-size: 13px;
                 line-height: 1.7;
                 color: $grayColor;
@@ -310,6 +312,197 @@
                         background-color: #bd081c;
                     }
                 }
+            }
+        }
+    }
+    .blog-comments {
+        margin-top: 25px;
+        h4 {
+            //u can see  how many comments are there
+            border-bottom: 1px solid #e2e2e2;
+            font-weight: 700;
+            margin-bottom: 30px;
+            padding-bottom: 25px;
+        }
+        .comment-list {
+            .comment {
+                margin-bottom: 25px;
+                .image {
+                    //who wrote comment -its picture
+                    float: left;
+                    height: 50px;
+                    width: 50px;
+                    img {
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+                .content {
+                    display: table-cell;
+                    padding-left: 30px;
+                    .head {
+                        //its name and date
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 15px;
+                        font-weight: 700;
+                        h5 {
+                            font-size: 16px;
+                            font-weight: 700;
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-family: "Nunito", sans-serif;
+                            font-size: 15px;
+                            border-left: 1px solid #e7e7e7;
+                            padding-left: 15px;
+                            margin-left: 15px;
+                            color: #666666;
+                        }
+                    }
+                    .reply {
+                        //reply button
+                        margin-bottom: 15px;
+                        a {
+                            font-family: $primary_font_family;
+                            display: inline-block;
+                            border: 1px solid #e7e7e7;
+                            color: #002359;
+                            font-weight: 600;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            margin-top: 5px;
+                            padding: 1px 10px;
+                            line-height: 30px;
+                            i {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .comment-reply {
+                padding-left: 80px;
+                .image {
+                    //who replied the comment its picture
+                    float: left;
+                    height: 150px;
+                    width: 50px;
+                    img {
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+                .content {
+                    display: table-cell;
+                    padding-left: 30px;
+                    .head {
+                        //its name and date
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 15px;
+                        font-weight: 700;
+                        h5 {
+                            font-size: 16px;
+                            font-weight: 700;
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-family: $primary_font_family;
+                            border-left: 1px solid #e7e7e7;
+                            padding-left: 15px;
+                            margin-left: 15px;
+                            font-size: 15px;
+                            color: $grayColor;
+                        }
+                    }
+                    .reply {
+                        //replt button
+                        font-family: $primary_font_family;
+                        margin-bottom: 15px;
+                        a {
+                            display: inline-block !important;
+                            border: 1px solid #e7e7e7;
+                            color: #002359;
+                            font-weight: 600;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            margin-top: 5px;
+                            padding: 1px 10px;
+                            line-height: 30px;
+                            i {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .self-comment {
+        //for write ur comment
+        margin-top: 25px;
+        h4 {
+            //u can see  how many comments are there
+            border-bottom: 1px solid #e2e2e2;
+            font-weight: 700;
+            margin-bottom: 30px;
+            padding-bottom: 25px;
+        }
+        .comment {
+            margin-top: 25px;
+            .image {
+                //who wrote comment -its picture
+                float: left;
+                height: 50px;
+                width: 50px;
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            .form-row {
+                margin-bottom: 16px;
+                justify-content: flex-end;
+                .post-button {
+                    ///for "post comment" button
+                    background: linear-gradient(90deg, rgba(30, 85, 189, 1) 0%, rgba(67, 126, 235, 1) 100%);
+                    border: 1px solid transparent;
+                    color: #ffffff;
+                    display: inline-block;
+                    font-family: "Nunito", sans-serif;
+                    font-size: 11px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    padding: 6px 14px;
+                    text-transform: uppercase;
+                    border-radius: 30px;
+                }
+                .cancel-button {
+                    display: inline-block;
+                    text-transform: uppercase;
+                    color: #437eeb;
+                    border: 1px solid;
+                    border-radius: 30px;
+                    padding: 6px 14px;
+                    margin-right: 7px;
+                    font-family: "Nunito", sans-serif;
+                    font-size: 11px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    background-color: white;
+                }
+            }
+            input,
+            textarea {
+                border: none;
+                border-bottom: 1px solid $borderColor;
+                border-radius: inherit;
+                box-shadow: inherit;
+                padding: 0;
+                color: $darkGray;
+                margin-bottom: 16px;
+                min-height: 50px;
             }
         }
     }

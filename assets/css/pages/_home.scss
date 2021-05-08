@@ -30,7 +30,9 @@
             .newsCategoryRight {
                 // display: block;
                 z-index: 3;
-                font-family: Roboto-Regular;
+                font-family: $primary_font_family;
+                font-weight: 400;
+                font-weight: 400;
                 font-size: 14px;
                 line-height: 1.2;
                 color: $whiteColor;
@@ -50,8 +52,9 @@
                 .news-title-a {
                     overflow: hidden;
                     display: -webkit-box;
-                    font-family: Roboto-Medium;
-                    font-size: 30px;
+                    font-family: $primary_font_family;
+                    font-weight: 500;
+                    font-size: 29px;
                     line-height: 1.2;
                     color: $whiteColor;
                     transition: all 0.3s;
@@ -67,13 +70,15 @@
             .how1-child2 {
                 z-index: 3;
                 span {
-                    font-family: Roboto-Regular;
+                    font-family: $primary_font_family;
+                    font-weight: 400;
                     font-size: 13px;
                     line-height: 1.7;
                     color: #ccc;
                 }
                 .name {
-                    font-family: Roboto-Bold !important;
+                    font-family: $primary_font_family !important;
+                    font-weight: 500;
                     font-size: 13px;
                     line-height: 1.7;
                 }
@@ -93,7 +98,8 @@
             .newsCategoryLeft {
                 // display: block;
                 z-index: 3;
-                font-family: Roboto-Regular;
+                font-family: $primary_font_family;
+                font-weight: 400;
                 font-size: 14px;
                 line-height: 1.2;
                 color: $whiteColor;
@@ -114,9 +120,10 @@
                     z-index: 3;
                     overflow: hidden;
                     display: -webkit-box;
-                    font-family: Roboto-Medium;
+                    font-family: $primary_font_family;
+                    font-weight: 500;
                     font-size: 16px;
-                    line-height: 1.5;
+                    line-height: 1.3;
                     max-height: 45px;
                     color: $whiteColor;
                     transition: all 0.3s;
@@ -129,13 +136,15 @@
             .how1-child2 {
                 z-index: 3;
                 span {
-                    font-family: Roboto-Regular;
+                    font-family: $primary_font_family;
+                    font-weight: 400;
                     font-size: 13px;
                     line-height: 1.7;
                     color: #ccc;
                 }
                 .name {
-                    font-family: Roboto-Bold !important;
+                    font-family: $primary_font_family !important;
+                    font-weight: 500;
                     font-size: 13px;
                     line-height: 1.7;
                 }
@@ -170,6 +179,7 @@
                 }
                 .news-category {
                     font-family: $primary_font_family;
+                    font-weight: 500;
                     font-size: 18px;
                     line-height: 1.333333;
                     // color: $redColor;
@@ -203,7 +213,7 @@
                             padding: 4px 10px;
                             text-transform: uppercase;
                             font-size: 12px;
-                            font-weight: 600;
+                            font-weight: 500;
                             border-radius: 4px;
                             z-index: 9;
                             color: $whiteColor;
@@ -227,13 +237,15 @@
                     }
                     .news-right-title {
                         span {
-                            font-family: Roboto-Regular;
+                            font-family: $primary_font_family;
+                            font-weight: 400;
                             font-size: 13px;
                             line-height: 1.7;
                             color: $grayColor;
                         }
                         .name {
-                            font-family: Roboto-Bold !important;
+                            font-family: $primary_font_family !important;
+                            font-weight: 500;
                             font-size: 13px;
                             line-height: 1.7;
                             color: $grayColor;
@@ -241,10 +253,10 @@
                         h5 {
                             padding-top: 5px;
                             .news-title-a {
-                                font-family: Roboto-Regular;
+                                font-family: $primary_font_family;
                                 font-size: 20px;
                                 line-height: 1.25;
-                                font-weight: 600;
+                                font-weight: 500;
                                 color: $darkGray;
                                 transition: all 0.3s;
                                 &:hover {
@@ -281,13 +293,15 @@
                     .news-left-title {
                         width: calc(100% - 118px);
                         span {
-                            font-family: Roboto-Regular;
+                            font-family: $primary_font_family;
+                            font-weight: 400;
                             font-size: 13px;
                             line-height: 1.7;
                             color: $grayColor;
                         }
                         .name {
-                            font-family: Roboto-Bold !important;
+                            font-family: $primary_font_family !important;
+                            font-weight: 500;
                             font-size: 13px;
                             line-height: 1.7;
                             color: $grayColor;
@@ -295,7 +309,8 @@
                         h5 {
                             // padding-top: 5px;
                             .news-title-a {
-                                font-family: Roboto-Medium;
+                                font-family: $primary_font_family;
+                                font-weight: 500;
                                 font-size: 15px;
                                 line-height: 1.333333;
                                 color: $darkGray;
@@ -348,6 +363,7 @@
                 }
                 .title {
                     font-family: $primary_font_family;
+                    font-weight: 500;
                     font-size: 18px;
                     line-height: 1.333333;
                     color: $darkGray;
@@ -375,7 +391,8 @@
                         margin-top: -5px;
                         a {
                             width: calc(100% - 48px);
-                            font-family: Roboto-Medium;
+                            font-family: $primary_font_family;
+                            font-weight: 500;
                             font-size: 15px;
                             line-height: 1.466667;
                             color: $darkGray;
@@ -425,7 +442,7 @@
                     a {
                         color: #ffffff;
                         display: inline-block;
-                        font-weight: 600;
+                        font-weight: 500;
                         height: 40px;
                         line-height: 42px;
                         margin-right: 5px;
@@ -566,7 +583,7 @@
                     padding: 4px 10px;
                     text-transform: uppercase;
                     font-size: 12px;
-                    font-weight: 600;
+                    font-weight: 500;
                     border-radius: 4px;
                     z-index: 9;
                     color: $whiteColor;
@@ -590,14 +607,15 @@
             }
             .news-title {
                 span {
-                    font-family: Roboto-Regular;
+                    font-family: $primary_font_family;
+                    font-weight: 400;
                     font-size: 13px;
                     line-height: 1.7;
                     color: $grayColor;
                 }
                 .name {
                     font-family: 'Roboto', sans-serif;
-                    font-weight: 700;
+                    font-weight: 500;
                     font-size: 13px;
                     line-height: 1.7;
                     color: $grayColor;
@@ -605,10 +623,10 @@
                 h5 {
                     padding-top: 5px;
                     .news-title-a {
-                        font-family: Roboto-Regular;
+                        font-family: $primary_font_family;
                         font-size: 20px;
                         line-height: 1.25;
-                        font-weight: 600;
+                        font-weight: 500;
                         color: $darkGray;
                         transition: all 0.3s;
                         &:hover {
